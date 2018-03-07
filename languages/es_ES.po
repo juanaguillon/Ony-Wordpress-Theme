@@ -1,0 +1,462 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: My Theme\n"
+"POT-Creation-Date: 2018-01-01 20:26-0500\n"
+"PO-Revision-Date: 2018-02-10 12:21-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+# @ ony
+#: archive.php:32
+msgid "Previous page"
+msgstr "Post Anterior"
+
+#: archive.php:33 search.php:25
+msgid "Next page"
+msgstr "Siguiente Página"
+
+# @ ony
+#: archive.php:34 content-link.php:30 search.php:26
+msgid "Page"
+msgstr "Página"
+
+#: author-bio.php:4
+msgid "Published By"
+msgstr "Publicado Por"
+
+#: author-bio.php:21
+#, php-format
+msgid "View all posts by %s"
+msgstr "Visto todos las publicaciones por %s"
+
+#: comments.php:13
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Una coincidencia en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s coincidencias en &ldquo;%2$s&rdquo;"
+
+# @ ony
+#: comments.php:37
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: content-link.php:23
+#, php-format
+msgid "Continue reading %s"
+msgstr "Continuar leyendo %s"
+
+# @ ony
+#: content-link.php:26 page.php:38
+msgid "Pages:"
+msgstr "Páginas:"
+
+# @ ony
+#: content.php:50
+msgid "Add Comment"
+msgstr "Añadir Comentario"
+
+# @ ony
+#: content.php:50
+msgid "Last comment"
+msgstr "Último comentario"
+
+# @ ony
+#: content.php:50
+msgid "Last comments"
+msgstr "Últimos comentarios"
+
+# @ ony
+#: content.php:57
+msgid "Edit"
+msgstr "Editar"
+
+#: customizer/controls.php:7
+msgid "Color Scheme"
+msgstr "Color de Tema"
+
+#: customizer/controls.php:8
+msgid "Select the palette colors for your WordPress's page."
+msgstr "Selecciona la paleta de colores para tu página de WordPress."
+
+#: customizer/controls.php:16
+msgid "Background"
+msgstr "Fondo"
+
+#: customizer/controls.php:22
+msgid "Header Color"
+msgstr "Color de Cabecera"
+
+#: customizer/controls.php:23
+msgid "Select the color for your header page."
+msgstr "Selecciona el color para tu cabecera de página."
+
+#: customizer/controls.php:29
+msgid "Sidebar Color"
+msgstr "Color de Sidebar"
+
+#: customizer/controls.php:35
+msgid "Post Background"
+msgstr "Fondo de Posts"
+
+#: customizer/controls.php:36
+msgid "This color affects all the backgrounds of the posts on the page"
+msgstr "Este colorafecta todos los fondos de los posts en la página"
+
+#: customizer/controls.php:41
+msgid "Font Link Color"
+msgstr "Color de Links"
+
+#: customizer/controls.php:42
+msgid "Change color for links"
+msgstr "Cambiar colores de Links"
+
+#: customizer/controls.php:47
+msgid "Font link Hover"
+msgstr "Links en hover"
+
+# @ ony
+#: customizer/controls.php:53
+msgid "Title Color"
+msgstr "Color de título"
+
+#: customizer/controls.php:59
+msgid "Button Submit"
+msgstr "Boton de formulario"
+
+# @ ony
+#: customizer/controls.php:65
+msgid "Background Comments"
+msgstr "Fondo de Comentarios"
+
+#: customizer/controls.php:66
+msgid "Change the background color for the comments section."
+msgstr "Cambia el color de fondo de las secciones de comentarios."
+
+#: customizer/customizer.php:9
+msgid "Default"
+msgstr "Predeterminado"
+
+#: customizer/customizer.php:23
+msgid "Dark"
+msgstr "Oscuro"
+
+#: customizer/customizer.php:36
+msgid "Blue"
+msgstr "Azul"
+
+#: customizer/customizer.php:50
+msgid "Custom"
+msgstr "Personalizar"
+
+# @ ony
+#: header.php:37
+msgid "Display Menu"
+msgstr "Mostrar Menu"
+
+#: header.php:64
+msgid "Create a new Menu"
+msgstr "Crear un menú nuevo"
+
+# @ ony
+#: inc/admin-menu.php:7
+msgid "Options ony"
+msgstr "Opciones para el Tema"
+
+#: inc/function-menus.php:15
+msgid "ony Options"
+msgstr "Opciones Ony"
+
+#: inc/function-menus.php:28
+msgid "WooCommerce Options"
+msgstr "Opciones WooCommerce"
+
+#: inc/function-menus.php:31
+msgid "View style of main menu"
+msgstr "Estilo de Menú Principal"
+
+#: inc/function-menus.php:32
+msgid ""
+"Choose the way that, according to your criteria, is more appropriate to have "
+"the main menu."
+msgstr ""
+"Elige la manera en que, de acuerdo a tu criterio, es mas apropiado tener el "
+"menú principal."
+
+#: inc/function-menus.php:34
+msgid "Static Menu (Default)"
+msgstr "Menú Estático (Predeterminado)"
+
+#: inc/function-menus.php:39
+msgid "Transition Menu"
+msgstr "Menú de transición"
+
+# @ ony
+#: inc/function-menus.php:44
+msgid "Sticky Menu"
+msgstr "Menú Adhesivo"
+
+#: inc/function-menus.php:51
+msgid "Save"
+msgstr "Guardar"
+
+#: inc/function-menus.php:62
+msgid "Changes saved."
+msgstr "Cambios guardados."
+
+#: index.php:37
+msgid "Posts no found"
+msgstr "Posts no encontrado"
+
+# @ony
+#: search.php:11
+#, php-format
+msgid "Search Results: %s"
+msgstr "Resultados de Búsqueda: %s"
+
+# @ ony
+#: search.php:24
+msgid "Previous Page"
+msgstr "Post Anterior"
+
+# @ ony
+#: single.php:25
+msgid "Categories"
+msgstr "Categorias"
+
+#: single.php:35
+msgid "Tags"
+msgstr "Etiquetas"
+
+# @ ony
+#: single.php:54
+msgid "Next"
+msgstr "Siguiente Post"
+
+# @ ony
+#: single.php:55
+msgid "Next post:"
+msgstr "Siguiente Post:"
+
+# @ ony
+#: single.php:57
+msgid "Previous"
+msgstr "Post Anterior"
+
+# @ ony
+#: single.php:58
+msgid "Previous post:"
+msgstr "Post Anterior:"
+
+#: woocommerce/single-product/meta.php:14
+msgid "SKU:"
+msgstr "SKU:"
+
+#: woocommerce/single-product/meta.php:14
+msgid "N/A"
+msgstr "N/A"
+
+# @ ony
+#: woocommerce/single-product/meta.php:18
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Categoria:"
+msgstr[1] "Categorías:"
+
+# @ ony
+#: woocommerce/single-product/meta.php:20
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Etiqueta:"
+msgstr[1] "Etiquetas:"
+
+# @ ony
+#. Theme Name of the plugin/theme
+msgid "My Theme"
+msgstr "Mi Tema"
+
+# ony
+#. Theme URI of the plugin/theme
+msgid "http://wordpress.org/themes/twentythirteen"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "El mejor tema creado en Colombia"
+msgstr "El mejor tema Creado en Colombia"
+
+#. Author of the plugin/theme
+msgid "Juan Camilo"
+msgstr "Juan Camilo"
+
+#. Author URI of the plugin/theme
+msgid "http://miloca.98/"
+msgstr ""
+
+# ony
+#~ msgid "Option traduced"
+#~ msgstr "Opción traducida"
+
+# @ ony
+#~ msgid ""
+#~ "It seems like you have tried to open a page that doesn't exist. It could "
+#~ "have been deleted, moved, or it never existed at all. You are welcome to "
+#~ "search for what you are looking for with the form below."
+#~ msgstr ""
+#~ "Parece que has intentado abrir una página que no existe. Podría haberse "
+#~ "eliminado, movido o nunca existió. Le invitamos a buscar lo que busca con "
+#~ "el siguiente formulario."
+
+# @ ony
+#~ msgid "Date: %s"
+#~ msgstr "Fecha %s"
+
+# @ ony
+#~ msgid "Month: %s"
+#~ msgstr "Mes %s"
+
+# @ ony
+#~ msgctxt "F = Month, Y = Year"
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+# @ ony
+#~ msgid "Year: %s"
+#~ msgstr "Año %s"
+
+# @ ony
+#~ msgctxt "Y = Year"
+#~ msgid "Y"
+#~ msgstr "Y"
+
+# @ ony
+#~ msgid "Author: %s"
+#~ msgstr "Autor %s"
+
+# @ ony
+#~ msgid "Archive"
+#~ msgstr "Archivo"
+
+# @ ony
+#~ msgid "Pingback"
+#~ msgid_plural "Pingbacks"
+#~ msgstr[0] "Pingback"
+#~ msgstr[1] "Pingbacks"
+
+# @ ony
+#~ msgid "Newer Comments"
+#~ msgstr "Comentarios Recientes"
+
+# @ ony
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+# @ ony
+#~ msgid "Email"
+#~ msgstr "Correo Electronico"
+
+# @ ony
+#~ msgid "Website"
+#~ msgstr "Sitio Web"
+
+# @ ony
+#~ msgid "Pingback:"
+#~ msgstr "PingBack:"
+
+# @ ony
+#~ msgid "(Edit)"
+#~ msgstr "(Editar)"
+
+# @ ony
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Tu comentario está esperando ser moderado."
+
+# @ ony
+#~ msgid "Reply"
+#~ msgstr "Respuesta"
+
+# @ ony
+#~ msgid ""
+#~ "We couldn't find any posts that matched your query. Please try again."
+#~ msgstr ""
+#~ "No hemos podido encontrar ningun post en la busqueda que solicita. "
+#~ "Intente nuevamente."
+
+# @ ony
+#~ msgid "No results. Try again, would you kindly?"
+#~ msgstr "No hay resultado. ¿Podría intentar nuevamente, por favor?"
+
+# @ ony
+#~ msgid "Read more"
+#~ msgstr "Leer mas"
+
+# @ ony
+#~ msgid "Click to view the navigation"
+#~ msgstr "Haga click para ver la navegación"
+
+# @ ony
+#~ msgid "Type and press enter"
+#~ msgstr "Escribe y presiona Enter"
+
+# @ ony
+#~ msgid "Thank you Mario!<br/>But our princess is in another castle!"
+#~ msgstr "Gracias mario! <br/> Pero nuestra princesa está en otro castillo!"
+
+# @ ony
+#~ msgid "Go back to the top"
+#~ msgstr "Ir de nuevo a la parte Superior"
+
+# @ ony
+#~ msgid "Click to view the search field"
+#~ msgstr "Haga clic para ver el campo de búsqueda"
+
+# @ ony
+#~ msgid "Allows you to customize theme settings for ony."
+#~ msgstr "Le permite personalizar la configuración del tema para el tema."
+
+# @ ony
+#~ msgid "at"
+#~ msgstr "en"
+
+# @ ony
+#~ msgid "Older"
+#~ msgstr "Antiguo"
+
+# @ ony
+#~ msgid "Posts"
+#~ msgstr "Posts"
+
+# @ ony
+#~ msgid "Newer"
+#~ msgstr "Recientes"
+
+# @ ony
+#~ msgid "Load More"
+#~ msgstr "Cargar Más"
+
+# @ ony
+#~ msgid "Post"
+#~ msgstr "Post"
+
+# @ ony
+#~ msgid "Page %s of %s"
+#~ msgstr "Pagina %s de %s"
+
+# @ ony
+#~ msgid "Post Author"
+#~ msgstr "Autor del Post"
