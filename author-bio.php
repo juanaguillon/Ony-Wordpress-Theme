@@ -1,4 +1,3 @@
-<h1>Este es elñ Author-bio.php</h1>
 <div class='author_info'>
   <h2 class='author_title'>
     <?php _e( 'Published By' ); ?>  
@@ -10,8 +9,7 @@
 
   echo get_avatar( get_the_author_meta( 'user_email' ), $autor_bio );
     
-  ?>
-
+  ?>     
     <div class="autor_description">
       <h3 class='author_title'><?php echo get_the_author(); ?></h3>
 

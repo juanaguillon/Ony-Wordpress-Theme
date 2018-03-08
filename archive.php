@@ -8,7 +8,6 @@ get_header();
 */
 
 ?>
-Asjdlkajsd
 <section id='primary' class='content_area witter'>
 	<main id='main' class='site_main' role='main'>
 		<?php if ( have_posts() ){ ?>
