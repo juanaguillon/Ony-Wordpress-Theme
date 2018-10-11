@@ -32,38 +32,18 @@
 		
 		<?php 
 
-		if ( is_single() ) :
+		
 
 			$args = array(
 				'before'        => '<div class="clearing"></div><p class"page_links"><span class="links_title"> ' . __( 'Pages:' , 'ony') .'</span>',
-				'after'         => '</p>',
+				'after'         => '</p></div>',
 				'link_before'   => '<span>',
 				'link_after'    => '</span>',
 				'separator'     => '>',
-				'pageling'      => '%',
 				'echo'          => 1
 			);
 
-			wp_link_pages( $args );
-
-			?>
-			
-			<?php if ( has_category() ):  ?>
-			<div class='post_category'><p><span class="span_category"><?php the_category( ',' ); ?></span></p></div>
-
-			<?php endif; ?>
-			<?php if (has_tag( )): ?>
-
-				<div class="post_tag">
-					<p class="post_tags"><?php the_tags(); ?></p>
-				</div>
-
-			<?php endif; ?>
-
-
-
-		<?php
-		endif;
+			wp_link_pages( $args );		
 
 		endwhile;//End while
  	else:
@@ -71,7 +51,7 @@
  	endif;
 		?>
 
-		<?php if (comments_open()) :?>
+		<?php if (comments_open() || get_comments_number(  )) :?>
 
 			<div class="comments_section">
 				<div class="section_into">
