@@ -38,9 +38,9 @@
 					);
 
 					wp_link_pages( $args );
-					?> 
-					</div> <!-- Post-id content -->	
-					<?php	
+				?> 
+				</div> <!-- Post-id content -->	
+				<?php	
 
 				endwhile;//End while
  	 	endif;

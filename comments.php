@@ -21,10 +21,18 @@ if( post_password_required() ){
 				wp_list_comments( array(
 					'style'       => 'ul',
 					'short_ping'  => true,
-					'avatar_size' => 86,
+					'avatar_size' => 42,
 				) );
 			?>
 		</ol><!-- .comment-list -->
+		<?php 
+
+		the_comments_pagination( array(
+			"prev_text" => '<-',
+			"next_text" => '->'
+		));
+
+		 ?>
 
 		
 
