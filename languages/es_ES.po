@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Theme\n"
-"POT-Creation-Date: 2018-01-01 20:26-0500\n"
-"PO-Revision-Date: 2018-02-10 12:21-0500\n"
+"POT-Creation-Date: 2018-10-12 12:32-0500\n"
+"PO-Revision-Date: 2018-10-12 12:46-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: es_ES\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -22,38 +22,38 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 # @ ony
-#: archive.php:32
+#: archive.php:31
 msgid "Previous page"
 msgstr "Post Anterior"
 
-#: archive.php:33 search.php:25
+#: archive.php:32 search.php:25
 msgid "Next page"
 msgstr "Siguiente Página"
 
 # @ ony
-#: archive.php:34 content-link.php:30 search.php:26
+#: archive.php:33 content-link.php:30 search.php:26
 msgid "Page"
 msgstr "Página"
 
-#: author-bio.php:4
+#: author-bio.php:3
 msgid "Published By"
 msgstr "Publicado Por"
 
-#: author-bio.php:21
+#: author-bio.php:19
 #, php-format
 msgid "View all posts by %s"
 msgstr "Visto todos las publicaciones por %s"
 
 #: comments.php:13
 #, php-format
-msgctxt "comments title"
+msgctxt "The same Title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Una coincidencia en &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s coincidencias en &ldquo;%2$s&rdquo;"
 
 # @ ony
-#: comments.php:37
+#: comments.php:45
 msgid "Comments are closed."
 msgstr "Los comentarios están cerrados."
 
@@ -63,27 +63,27 @@ msgid "Continue reading %s"
 msgstr "Continuar leyendo %s"
 
 # @ ony
-#: content-link.php:26 page.php:38
+#: content-link.php:26 page.php:32
 msgid "Pages:"
 msgstr "Páginas:"
 
 # @ ony
-#: content.php:50
+#: content.php:58
 msgid "Add Comment"
 msgstr "Añadir Comentario"
 
 # @ ony
-#: content.php:50
+#: content.php:58
 msgid "Last comment"
 msgstr "Último comentario"
 
 # @ ony
-#: content.php:50
+#: content.php:58
 msgid "Last comments"
 msgstr "Últimos comentarios"
 
 # @ ony
-#: content.php:57
+#: content.php:65
 msgid "Edit"
 msgstr "Editar"
 
@@ -166,61 +166,112 @@ msgid "Custom"
 msgstr "Personalizar"
 
 # @ ony
-#: header.php:37
+#: header.php:38
 msgid "Display Menu"
 msgstr "Mostrar Menu"
 
-#: header.php:64
+#: header.php:65
 msgid "Create a new Menu"
 msgstr "Crear un menú nuevo"
 
 # @ ony
 #: inc/admin-menu.php:7
-msgid "Options ony"
+#, fuzzy
+#| msgid "Options ony"
+msgid "Options Ony"
 msgstr "Opciones para el Tema"
 
-#: inc/function-menus.php:15
+#: inc/admin-menu.php:7
+msgid "Ony"
+msgstr ""
+
+#: inc/function-menus.php:48
 msgid "ony Options"
 msgstr "Opciones Ony"
 
-#: inc/function-menus.php:28
-msgid "WooCommerce Options"
-msgstr "Opciones WooCommerce"
+#: inc/function-menus.php:51
+msgid "Changes saved"
+msgstr "Cambios guardados"
 
-#: inc/function-menus.php:31
+#: inc/function-menus.php:55
+#, fuzzy
+#| msgid "ony Options"
+msgid "General Options"
+msgstr "Opciones Ony"
+
+#: inc/function-menus.php:63
 msgid "View style of main menu"
 msgstr "Estilo de Menú Principal"
 
-#: inc/function-menus.php:32
-msgid ""
-"Choose the way that, according to your criteria, is more appropriate to have "
-"the main menu."
-msgstr ""
-"Elige la manera en que, de acuerdo a tu criterio, es mas apropiado tener el "
-"menú principal."
-
-#: inc/function-menus.php:34
-msgid "Static Menu (Default)"
+#: inc/function-menus.php:68
+#, fuzzy
+#| msgid "Static Menu (Default)"
+msgid "Transition Menu (Default)"
 msgstr "Menú Estático (Predeterminado)"
 
-#: inc/function-menus.php:39
-msgid "Transition Menu"
-msgstr "Menú de transición"
+# @ ony
+#: inc/function-menus.php:72
+#, fuzzy
+#| msgid "Sticky Menu"
+msgid "Static Menu"
+msgstr "Menú Adhesivo"
 
 # @ ony
-#: inc/function-menus.php:44
+#: inc/function-menus.php:76
 msgid "Sticky Menu"
 msgstr "Menú Adhesivo"
 
-#: inc/function-menus.php:51
+#: inc/function-menus.php:83
+msgid "Position sidebar"
+msgstr ""
+
+#: inc/function-menus.php:88
+#, fuzzy
+#| msgid "Default"
+msgid "Left (Default)"
+msgstr "Predeterminado"
+
+#: inc/function-menus.php:92
+msgid "Right"
+msgstr ""
+
+#: inc/function-menus.php:96
+#, fuzzy
+#| msgid "Static Menu (Default)"
+msgid "Static left"
+msgstr "Menú Estático (Predeterminado)"
+
+#: inc/function-menus.php:100
+msgid "Static Right"
+msgstr ""
+
+#: inc/function-menus.php:104
+msgid "None"
+msgstr ""
+
+#: inc/function-menus.php:119
+msgid "WooCommerce Options"
+msgstr "Opciones WooCommerce"
+
+#: inc/function-menus.php:125
+msgid "Display short description"
+msgstr ""
+
+#: inc/function-menus.php:130
+#, fuzzy
+#| msgid "Default"
+msgid "On (Default)"
+msgstr "Predeterminado"
+
+#: inc/function-menus.php:134
+msgid "Off"
+msgstr ""
+
+#: inc/function-menus.php:142
 msgid "Save"
 msgstr "Guardar"
 
-#: inc/function-menus.php:62
-msgid "Changes saved."
-msgstr "Cambios guardados."
-
-#: index.php:37
+#: index.php:33
 msgid "Posts no found"
 msgstr "Posts no encontrado"
 
@@ -236,33 +287,173 @@ msgid "Previous Page"
 msgstr "Post Anterior"
 
 # @ ony
-#: single.php:25
+#: single.php:27
 msgid "Categories"
 msgstr "Categorias"
 
-#: single.php:35
+#: single.php:37
 msgid "Tags"
 msgstr "Etiquetas"
 
 # @ ony
-#: single.php:54
+#: single.php:56
 msgid "Next"
 msgstr "Siguiente Post"
 
 # @ ony
-#: single.php:55
+#: single.php:57
 msgid "Next post:"
 msgstr "Siguiente Post:"
 
 # @ ony
-#: single.php:57
+#: single.php:59
 msgid "Previous"
 msgstr "Post Anterior"
 
 # @ ony
-#: single.php:58
+#: single.php:60
 msgid "Previous post:"
 msgstr "Post Anterior:"
+
+#: woocommerce/cart/cart-shipping.php:32
+msgid ""
+"There are no shipping methods available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:35
+msgid "Enter your full address to see shipping costs."
+msgstr ""
+
+#: woocommerce/cart/cart.php:23
+msgid "Image Preview"
+msgstr ""
+
+#: woocommerce/cart/cart.php:24 woocommerce/cart/cart.php:84
+#: woocommerce/checkout/form-pay.php:12
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:25 woocommerce/cart/cart.php:99
+#: woocommerce/cart/cart.php:107 woocommerce/checkout/review-order.php:57
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:26 woocommerce/checkout/review-order.php:31
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:27 woocommerce/cart/cart.php:126
+#: woocommerce/checkout/review-order.php:132
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:58
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:65
+msgid "Image"
+msgstr ""
+
+#: woocommerce/cart/cart.php:79
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:149
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:61
+msgid "Create an account?"
+msgstr "¿Crear un menú nuevo?"
+
+#: woocommerce/checkout/form-checkout.php:9
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:13
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:14
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:12
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:46
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:13
+msgid "Payment Method"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:22
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:22
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:36
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:37
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:10
+msgid "List product"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:46
+msgid "More attributes"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:80
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:83
+msgid "Subtotal"
+msgstr ""
 
 #: woocommerce/single-product/meta.php:14
 msgid "SKU:"
@@ -286,27 +477,29 @@ msgid_plural "Tags:"
 msgstr[0] "Etiqueta:"
 msgstr[1] "Etiquetas:"
 
+#: woocommerce/single-product/product-image.php:39
+msgid "Awaiting product image"
+msgstr ""
+
+#~ msgid ""
+#~ "Choose the way that, according to your criteria, is more appropriate to "
+#~ "have the main menu."
+#~ msgstr ""
+#~ "Elige la manera en que, de acuerdo a tu criterio, es mas apropiado tener "
+#~ "el menú principal."
+
+#~ msgid "Transition Menu"
+#~ msgstr "Menú de transición"
+
 # @ ony
-#. Theme Name of the plugin/theme
-msgid "My Theme"
-msgstr "Mi Tema"
+#~ msgid "My Theme"
+#~ msgstr "Mi Tema"
 
-# ony
-#. Theme URI of the plugin/theme
-msgid "http://wordpress.org/themes/twentythirteen"
-msgstr ""
+#~ msgid "El mejor tema creado en Colombia"
+#~ msgstr "El mejor tema Creado en Colombia"
 
-#. Description of the plugin/theme
-msgid "El mejor tema creado en Colombia"
-msgstr "El mejor tema Creado en Colombia"
-
-#. Author of the plugin/theme
-msgid "Juan Camilo"
-msgstr "Juan Camilo"
-
-#. Author URI of the plugin/theme
-msgid "http://miloca.98/"
-msgstr ""
+#~ msgid "Juan Camilo"
+#~ msgstr "Juan Camilo"
 
 # ony
 #~ msgid "Option traduced"
