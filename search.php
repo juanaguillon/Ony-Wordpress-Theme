@@ -26,7 +26,10 @@
 		'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page' ) . ' </span>',
 	) );		
 	}else{
-		get_template_part( 'content' , 'none');
+		?> 
+		<h1>No se ha encontrado nada, intenta una nueva busqueda</h1>
+		<?php get_search_form(); ?>
+		<?php
 	} 
 	
 
