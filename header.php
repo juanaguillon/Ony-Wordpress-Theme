@@ -19,7 +19,11 @@
 				wp_nav_menu( array(
 					'theme_location' => 'secondary',
 					'menu_class'     => 'nav-secondary_menu witter',
-					'container_id'   => 'container_nav_menu_secondary'
+					'container_id'   => 'container_nav_menu_secondary',
+					'before' => "<span class='before'>",
+					'after'  => "</span>",
+					'link_before' => '<div class="link_before">',
+					'link_after' => '</div>'
 				));
 				?>
 			</div>
